@@ -1,5 +1,5 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1db9c1fd-2815-4fc9-a8d1-362314ce3103++8088",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0843AC66773CD666C29F8A7E8D4518E0ED9527C9",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "5af66c20-8b65-0b49-8d7f-06abe0b23fc7++5972" : {
 
@@ -9,18 +9,25 @@
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0843AC66773CD666C29F8A7E8D4518E0ED9527C9" : 9223372036854775807,
     "5af66c20-8b65-0b49-8d7f-06abe0b23fc7++5972" : 9223372036854775807,
     "1db9c1fd-2815-4fc9-a8d1-362314ce3103++8088" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1497DED9-5C17-4A24-A9C4-88F5A4D782CE",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "5af66c20-8b65-0b49-8d7f-06abe0b23fc7++5972" : "",
-    "1db9c1fd-2815-4fc9-a8d1-362314ce3103++8088" : "ios_database_mine\/"
+    "0843AC66773CD666C29F8A7E8D4518E0ED9527C9" : "ZWRefreshLib\/",
+    "5af66c20-8b65-0b49-8d7f-06abe0b23fc7++5972" : "..\/..",
+    "1db9c1fd-2815-4fc9-a8d1-362314ce3103++8088" : ".."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ZWRefreshLib",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "common\/MJRefreshLib 2\/ZWRefreshLib.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZWRefreshLib.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EadkennyChan\/ZWRefreshLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0843AC66773CD666C29F8A7E8D4518E0ED9527C9"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/localhost",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
