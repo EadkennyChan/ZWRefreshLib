@@ -18,10 +18,10 @@
     NSMutableArray *mtArrayImages = [NSMutableArray arrayWithCapacity:12];
     NSString *strImageName;
     UIImage *image;
+    NSBundle *bundle = [NSBundle mj_refreshBundle];
     for (NSInteger nIndex = 0; nIndex < 13; nIndex++)
     {
-        strImageName = [[NSBundle mj_refreshBundle] pathForResource:[NSString stringWithFormat:@"loading%ld", (long)nIndex + 1] ofType:@"png"];
-//        strImageName = [@"ZWRefreshLib.bundle" stringByAppendingPathComponent:[NSString stringWithFormat:@"loading%ld.png", (long)nIndex + 1]];
+        strImageName = [bundle pathForResource:[NSString stringWithFormat:@"loading%ld@2x", (long)nIndex + 1] ofType:@"png"];
         image = [UIImage imageNamed:strImageName];
         if (image)
             [mtArrayImages addObject:image];
