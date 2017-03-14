@@ -20,7 +20,8 @@
     UIImage *image;
     for (NSInteger nIndex = 0; nIndex < 13; nIndex++)
     {
-        strImageName = [@"ZWRefreshLib.bundle" stringByAppendingPathComponent:[NSString stringWithFormat:@"loading%ld.png", (long)nIndex + 1]];
+        strImageName = [[NSBundle mj_refreshBundle] pathForResource:[NSString stringWithFormat:@"loading%ld", (long)nIndex + 1] ofType:@"png"];
+//        strImageName = [@"ZWRefreshLib.bundle" stringByAppendingPathComponent:[NSString stringWithFormat:@"loading%ld.png", (long)nIndex + 1]];
         image = [UIImage imageNamed:strImageName];
         if (image)
             [mtArrayImages addObject:image];

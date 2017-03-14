@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZWRefreshLib'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '根据MJRefreshLib改进的下拉刷新组件.'
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,6 @@ TODO: 根据MJRefreshLib改进的下拉刷新组件
   s.ios.deployment_target = '6.0'
 
   s.source_files = 'Classes/{*,**/*}.{h,m}'
-  
-  s.resource_bundles = {
-     'ZWRefreshLib' => ['Classes/*.bundle']
-  }
+  s.resources    = 'Classes/ZWRefreshLib.bundle'
 
 end

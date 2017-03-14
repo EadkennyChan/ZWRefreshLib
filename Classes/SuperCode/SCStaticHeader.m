@@ -20,7 +20,7 @@
 {
     [super prepare];
     
-    NSString *strImageName = [@"ZWRefreshLib.bundle" stringByAppendingPathComponent:@"logo.png"];
+    NSString *strImageName = [[NSBundle mj_refreshBundle] pathForResource:@"logo" ofType:@"png"];
     UIImage *image = [UIImage imageNamed:strImageName];
     
     self.mj_h = image.size.height;
