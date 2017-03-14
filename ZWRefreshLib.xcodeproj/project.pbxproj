@@ -97,12 +97,12 @@
 		D45AF30C1DFE6EC600260B90 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = Classes/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
 		D45AF30D1DFE6EC600260B90 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = Classes/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		D45AF30E1DFE6EC600260B90 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = Classes/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
-		D45AF3161DFE6F3400260B90 /* SCAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCAutoFooter.h; path = "../../example/ZWUtilityKit-demo/MJRefresh/Custom/SuperCode/SCAutoFooter.h"; sourceTree = "<group>"; };
-		D45AF3171DFE6F3400260B90 /* SCAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCAutoFooter.m; path = "../../example/ZWUtilityKit-demo/MJRefresh/Custom/SuperCode/SCAutoFooter.m"; sourceTree = "<group>"; };
-		D45AF3181DFE6F3400260B90 /* SCRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCRefreshHeader.h; path = "../../example/ZWUtilityKit-demo/MJRefresh/Custom/SuperCode/SCRefreshHeader.h"; sourceTree = "<group>"; };
-		D45AF3191DFE6F3400260B90 /* SCRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCRefreshHeader.m; path = "../../example/ZWUtilityKit-demo/MJRefresh/Custom/SuperCode/SCRefreshHeader.m"; sourceTree = "<group>"; };
-		D45AF31A1DFE6F3400260B90 /* SCStaticHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCStaticHeader.h; path = "../../example/ZWUtilityKit-demo/MJRefresh/Custom/SuperCode/SCStaticHeader.h"; sourceTree = "<group>"; };
-		D45AF31B1DFE6F3400260B90 /* SCStaticHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCStaticHeader.m; path = "../../example/ZWUtilityKit-demo/MJRefresh/Custom/SuperCode/SCStaticHeader.m"; sourceTree = "<group>"; };
+		D45AF3161DFE6F3400260B90 /* SCAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAutoFooter.h; sourceTree = "<group>"; };
+		D45AF3171DFE6F3400260B90 /* SCAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAutoFooter.m; sourceTree = "<group>"; };
+		D45AF3181DFE6F3400260B90 /* SCRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRefreshHeader.h; sourceTree = "<group>"; };
+		D45AF3191DFE6F3400260B90 /* SCRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRefreshHeader.m; sourceTree = "<group>"; };
+		D45AF31A1DFE6F3400260B90 /* SCStaticHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCStaticHeader.h; sourceTree = "<group>"; };
+		D45AF31B1DFE6F3400260B90 /* SCStaticHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCStaticHeader.m; sourceTree = "<group>"; };
 		D45DE8F91DE2C2860002B6A1 /* MJRefreshLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefreshLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47DC66D1DE457B2008B3FB3 /* ZWUtilityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZWUtilityKit.framework; path = "../../bin/Debug-iphoneos/ZWUtilityKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,6 +205,7 @@
 				D45AF3171DFE6F3400260B90 /* SCAutoFooter.m */,
 			);
 			name = SuperCode;
+			path = Classes/SuperCode;
 			sourceTree = "<group>";
 		};
 		D45DE8EF1DE2C2860002B6A1 = {
