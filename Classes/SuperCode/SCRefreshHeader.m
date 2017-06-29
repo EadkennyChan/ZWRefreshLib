@@ -19,12 +19,14 @@
     NSString *strImageName;
     UIImage *image;
     NSBundle *bundle = [NSBundle mj_refreshBundle];
-    for (NSInteger nIndex = 0; nIndex < 13; nIndex++)
+    for (NSInteger nIndex = 0; nIndex < 12; nIndex++)
     {
         strImageName = [bundle pathForResource:[NSString stringWithFormat:@"loading%ld@2x", (long)nIndex + 1] ofType:@"png"];
-        image = [UIImage imageNamed:strImageName];
-        if (image)
+        if (strImageName.length > 0)
+        {
+            image = [UIImage imageNamed:strImageName];
             [mtArrayImages addObject:image];
+        }
     }
     [self setImages:@[mtArrayImages.firstObject] duration:1 forState:MJRefreshStateIdle];
     
