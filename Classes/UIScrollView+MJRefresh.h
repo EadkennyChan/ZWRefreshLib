@@ -42,7 +42,7 @@
  *
  *  @param callback 回调
  */
-- (void)addHeaderWithCallback:(void (^)())callback;
+- (void)addHeaderWithCallback:(void (^)(void))callback;
 
 /**
  *  主动让下拉刷新头部控件进入刷新状态
@@ -64,7 +64,7 @@
  */
 - (void)addFooterWithTarget:(id)target action:(SEL)action;
 
-- (void)addFooterWithCallback:(void (^)())callback;
+- (void)addFooterWithCallback:(void (^)(void))callback;
 
 /**
  *  移除上拉刷新尾部控件

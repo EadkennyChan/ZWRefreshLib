@@ -1,18 +1,10 @@
 
-ZWRefreshLib.xcodeproj/project.xcworkspace/xcuserdata/eadkenny.xcuserdatad/UserInterfaceState.xcuserstate
-
-*.xcuserstate
-
-ZWRefreshLib.xcodeproj/project.xcworkspace/xcshareddata/MJRefreshLib.xcscmblueprint
-
-ZWRefreshLib.xcodeproj/project.xcworkspace/xcshareddata/ZWRefreshLib.xcscmblueprint
-
-ZWRefreshLib.xcodeproj/xcuserdata/eadkenny.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-
-ZWRefreshLib.xcodeproj/xcuserdata/eadkenny.xcuserdatad/xcschemes/MJRefreshLib.xcscheme
-
-ZWRefreshLib.xcodeproj/xcuserdata/eadkenny.xcuserdatad/xcschemes/xcschememanagement.plist
-
-ZWRefreshLib.xcodeproj/xcuserdata/chenzw.xcuserdatad/xcschemes/MJRefreshLib.xcscheme
-
-ZWRefreshLib.xcodeproj/xcuserdata/chenzw.xcuserdatad/xcschemes/xcschememanagement.plist
+**/.DS_Store
+**/Automation/**/iPA*/*
+**/Pods/**/*
+**/*.xcodeproj/*.xcworkspace
+**/*.xcodeproj/xcuserdata
+**/*.xcworkspace/xcuserdata
+**/*.xcworkspace/xcshareddata
+**/*.lock
+**/bin/*

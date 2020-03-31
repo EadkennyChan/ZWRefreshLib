@@ -183,7 +183,7 @@ static const char MJRefreshReloadDataBlockKey = '\0';
     }
 }
 
-- (void)addHeaderWithCallback:(void (^)())callback
+- (void)addHeaderWithCallback:(void (^)(void))callback
 {
     if (callback == nil)
     {
@@ -221,7 +221,7 @@ static const char MJRefreshReloadDataBlockKey = '\0';
     }
 }
 
-- (void)addFooterWithCallback:(void (^)())callback
+- (void)addFooterWithCallback:(void (^)(void))callback
 {
     if (callback == nil)
     {
