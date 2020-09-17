@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910E662025130E7F007454F3 /* ZWRefreshLib.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910E661F25130E7F007454F3 /* ZWRefreshLib.xcassets */; };
 		D45AF2CB1DFE55DF00260B90 /* ZWRefreshLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D45AF2BF1DFE55DF00260B90 /* ZWRefreshLib.bundle */; };
 		D45AF2CC1DFE55DF00260B90 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D45AF2C01DFE55DF00260B90 /* MJRefresh.h */; };
 		D45AF2CD1DFE55DF00260B90 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = D45AF2C11DFE55DF00260B90 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +58,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		910E661F25130E7F007454F3 /* ZWRefreshLib.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZWRefreshLib.xcassets; sourceTree = "<group>"; };
 		D45AF2BF1DFE55DF00260B90 /* ZWRefreshLib.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZWRefreshLib.bundle; path = Classes/ZWRefreshLib.bundle; sourceTree = "<group>"; };
 		D45AF2C01DFE55DF00260B90 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = Classes/MJRefresh.h; sourceTree = "<group>"; };
 		D45AF2C11DFE55DF00260B90 /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = Classes/MJRefreshConst.h; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 		D45DE8EF1DE2C2860002B6A1 = {
 			isa = PBXGroup;
 			children = (
+				910E661F25130E7F007454F3 /* ZWRefreshLib.xcassets */,
 				D45DE9041DE2D0A50002B6A1 /* Classes */,
 				D47DC66C1DE457B2008B3FB3 /* Frameworks */,
 				D45DE8FA1DE2C2860002B6A1 /* Products */,
@@ -328,6 +331,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D45DE8EF1DE2C2860002B6A1;
@@ -345,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910E662025130E7F007454F3 /* ZWRefreshLib.xcassets in Resources */,
 				D45AF2CB1DFE55DF00260B90 /* ZWRefreshLib.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

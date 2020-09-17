@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZWRefreshLib'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = '根据MJRefreshLib改进的下拉刷新组件.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: 根据MJRefreshLib改进的下拉刷新组件
                        DESC
 
-  s.homepage         = 'https://github.com/EadkennyChan/ZWRefreshLib'
+  s.homepage         = 'https://github.com/barleychan1988/ZWRefreshLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Eadkennychan' => 'Eadkennychan@gmail.com' }
-  s.source           = { :git => 'https://github.com/EadkennyChan/ZWRefreshLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/barleychan1988/ZWRefreshLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '6.0'
 
   s.source_files = 'Classes/{*,**/*}.{h,m}'
   s.resources    = 'Classes/ZWRefreshLib.bundle'
+  s.resource = ['**/*.xcassets']
 
 end
