@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view.
-  NSArray *arrVCNames = @[@"ViewController", @"StaticViewController", @"DefViewController"];
+  NSArray *arrVCNames = @[@"ViewController", @"StaticViewController", @"DefViewController", @"MJExampleViewController"];
   NSArray *arrTitles = @[@"首页",@"交易",@"商城", @"社区",@"我的"];
   NSArray *arrIconNames = @[@"tab_home",@"icon_setting",@"icon_shopmall",@"second",@"first"];
   NSArray *arrSelectedIconNames = @[@"tab_home_active",@"icon_setting_selected",@"icon_shopmall_active" ,@"tab3_active",@"tab4_active"];
