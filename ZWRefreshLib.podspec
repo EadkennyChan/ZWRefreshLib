@@ -31,7 +31,6 @@ TODO: 根据MJRefreshLib改进的下拉刷新组件
   s.ios.deployment_target = '6.0'
 
   s.source_files = 'Classes/{*,**/*}.{h,m}'
-  s.resources    = 'Classes/ZWRefreshLib.bundle'
-  s.resource = ['**/*.xcassets']
+  s.resource = ['resources/**/*.xcassets', 'resources/*.png', 'resources/**/*.bundle']
 
 end

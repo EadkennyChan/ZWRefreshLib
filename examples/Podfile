@@ -1,0 +1,11 @@
+ source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+# source 'https://github.com/CocoaPods/Specs.git'        #官方仓库地址
+use_frameworks!
+target 'example' do
+  pod 'Masonry'
+  pod 'RTRootNavigationController'
+  
+  pod 'ZWRefreshLib', :path=>'..'
+  
+  pod 'Test', :path=>'testModule/Test'
+end
