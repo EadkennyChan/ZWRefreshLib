@@ -71,7 +71,7 @@
         self.stateLabel.hidden = YES;
         self.lastUpdatedTimeLabel.hidden = YES;
     }
-    else if (state == MJRefreshStateEndRefreshed)
+    else if (state == MJRefreshStateIdle)
     {
         self.gifView.hidden = YES;
     }

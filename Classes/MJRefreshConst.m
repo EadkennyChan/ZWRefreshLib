@@ -5,6 +5,7 @@
 const CGFloat MJRefreshLabelLeftInset = 25;
 const CGFloat MJRefreshHeaderHeight = 54.0;
 const CGFloat MJRefreshFooterHeight = 44.0;
+const CGFloat MJRefreshTrailWidth = 60.0;
 const CGFloat MJRefreshFastAnimationDuration = 0.25;
 const CGFloat MJRefreshSlowAnimationDuration = 0.4;
 
@@ -15,13 +16,16 @@ NSString *const MJRefreshKeyPathPanState = @"state";
 
 NSString *const MJRefreshHeaderLastUpdatedTimeKey = @"MJRefreshHeaderLastUpdatedTimeKey";
 
-NSString *const MJRefreshHeaderIdleText = @"下拉可以刷新";
-NSString *const MJRefreshHeaderPullingText = @"松手刷新...";
-NSString *const MJRefreshHeaderRefreshingText = @"正在刷新...";
+NSString *const MJRefreshHeaderIdleText = @"MJRefreshHeaderIdleText";
+NSString *const MJRefreshHeaderPullingText = @"MJRefreshHeaderPullingText";
+NSString *const MJRefreshHeaderRefreshingText = @"MJRefreshHeaderRefreshingText";
+
+NSString *const MJRefreshTrailerIdleText = @"MJRefreshTrailerIdleText";
+NSString *const MJRefreshTrailerPullingText = @"MJRefreshTrailerPullingText";
 
 NSString *const MJRefreshAutoFooterIdleText = @"MJRefreshAutoFooterIdleText";
 NSString *const MJRefreshAutoFooterRefreshingText = @"MJRefreshAutoFooterRefreshingText";
-NSString *const MJRefreshAutoFooterNoMoreDataText = @"没有更多数据了";
+NSString *const MJRefreshAutoFooterNoMoreDataText = @"MJRefreshAutoFooterNoMoreDataText";
 
 NSString *const MJRefreshBackFooterIdleText = @"MJRefreshBackFooterIdleText";
 NSString *const MJRefreshBackFooterPullingText = @"MJRefreshBackFooterPullingText";

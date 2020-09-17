@@ -31,7 +31,7 @@
   __weak UITableView *tableViewWeak = tableView;
   tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
     NSLog(@"MJRefreshNormalHeader");
-    [tableViewWeak headerEndRefreshing];
+    [tableViewWeak.mj_header endRefreshing];
   }];
 }
 
